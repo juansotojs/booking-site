@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&display=swap");
+body {
+  background-color: #fab0b0;
+  margin: 0;
+  font-family: "M PLUS 1p", sans-serif;
+}
+h1 {
+  color: white;
+  font-family: "M PLUS 1p", sans-serif;
+}
+.logoh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+.calendarBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calendar {
+  width: 85vw;
+  padding-bottom: 130px;
+}
+.picsBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  padding: 0px 0px 35px 0px;
+  z-index: 0;
+}
+.picin {
+  height: 9000px;
+  z-index: 0;
+}
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoPic {
+  height: 180px;
+  padding-top: 40px;
+}
+.top {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  background: #fff3f7;
+  width: 100%;
+  box-shadow: 0px -25px 40px black;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+header ::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav {
+  display: flex;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  padding: 10px 30px 10px 30px;
+}
+nav a {
+  color: rgb(212, 150, 150);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+nav a:hover {
+  color: rgb(128, 110, 110);
+}
+.footer {
+  background-color: #aaaaaa;
+  color: white;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.social-items{
+  list-style: none;
+  font-size: 60px;
+}
+.social-items a{
+  color: white;
+}
+.quick-items{
+  list-style: none;
+}
+.quick-items a{
+  text-decoration: none;
+  color: white;
+}
+.outer-footer{
+  background
+}
+.book{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+@media (max-width: 600px) {
+  .top {
+    display: flex;
+  }
+  nav a {
+    width: 100%;
+  }
+  nav li {
+    display: flex;
+    text-align: center;
+    padding: 25px;
+  }
+  nav ul {
+    padding-top: 45px;
+    flex-direction: column;
+    width: 100%;
+  }
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header {
+    height: 60px;
+  }
+  .logoPic {
+    padding-top: 62px;
+    height: 150px;
+  }
+
+  .burger div {
+    width: 30px;
+    height: 5px;
+    border-radius: 15%;
+    background-color: rgb(212, 150, 150);
+    margin: 5px;
+  }
+  .burger {
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 15px;
+  }
+  .navbar-links{
+    display: none;
+  }
+  .navbar-links.active{
+    display: flex;
+  }
+  .hdr.active {
+    height: 278px;
+  }
+  .picsBox{
+    padding: 0;
+  }
+
+}
+/* IGQVJXamxqVmFBT2FVNTJPaEhmejFQNC14X2ZANNGRGVVZAOOUFtU3pjRFlaN1lualJQa0FCWDBWMTBHSlg2VmtyZAl9NV1U3RmZAGMmdISEpYeG1qSmJqdXhwcHZAuV3BMaWVmQTNIc3hreVVtVUdCMGo2SgZDZD 
+
+<footer class="footer">
+  <h2>Zen Luxe Nails</h2>
+  <div class="inner-footer">
+    <div class="social-links">
+      <ul>
+        <li class="social-items"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+      </ul>
+    </div>
+    <div class="quick-links">
+      <ul>
+        <li class="quick-items"><a href="#">Home</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+*/
